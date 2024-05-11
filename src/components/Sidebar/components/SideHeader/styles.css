@@ -1,0 +1,19 @@
+.side-header a {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  width: fit-content;
+  color: var(--primary);
+  padding-inline: 0.75rem;
+  margin-block: 0.65rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.side-header a pre span {
+  color: var(--dark);
+}
+
+.side-header a svg {
+  font-size: 2.2rem;
+}

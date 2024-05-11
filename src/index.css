@@ -14,3 +14,28 @@
   --success: #388e3c;
   --light-success: #bbf7d0;
 }
+
+.dark-mode:root {
+  --light: #181a1e;
+  --grey: #25252c;
+  --dark: #fbfbfb;
+}
+
+body {
+  background-color: var(--grey);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
