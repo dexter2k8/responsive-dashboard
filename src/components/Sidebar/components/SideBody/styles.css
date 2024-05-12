@@ -1,0 +1,55 @@
+.side-body {
+  margin-top: 3rem;
+}
+
+.side-body svg {
+  font-size: 1.6rem;
+}
+
+.side-body li {
+  height: 3rem;
+  border-radius: 3rem 0 0 3rem;
+  padding: 0.25rem;
+}
+
+.side-body li.active {
+  position: relative;
+  background-color: var(--grey);
+}
+
+.side-body li.active::before,
+.side-body li.active::after {
+  content: "";
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  right: 0;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.side-body li.active::before {
+  top: -2.5rem;
+  box-shadow: 1.25rem 1.25rem 0 var(--grey);
+}
+
+.side-body li.active::after {
+  bottom: -2.5rem;
+  box-shadow: 1.25rem -1.25rem 0 var(--grey);
+}
+
+.side-body li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-radius: 3rem;
+  background: var(--light);
+  color: var(--dark);
+  white-space: nowrap;
+  overflow-x: hidden;
+  transition: all 0.3s ease;
+}
+
+.side-body li.active a {
+  color: var(--success);
+}
