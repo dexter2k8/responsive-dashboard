@@ -9,3 +9,7 @@
 .sidebar.collapsed {
   width: 3.75rem;
 }
+
+.sidebar svg {
+  font-size: 1.6rem;
+}

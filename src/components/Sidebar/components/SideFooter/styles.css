@@ -1,0 +1,11 @@
+.side-footer {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+}
+
+.side-footer a {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+}
