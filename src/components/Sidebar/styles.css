@@ -1,13 +1,12 @@
 .sidebar {
-  position: fixed;
   background: var(--light);
-  width: 14rem;
+  min-width: 14rem;
   height: 100%;
   transition: all 0.3s ease;
 }
 
 .sidebar.collapsed {
-  width: 3.75rem;
+  min-width: 3.75rem;
 }
 
 .sidebar svg {

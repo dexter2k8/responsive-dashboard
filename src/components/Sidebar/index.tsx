@@ -7,10 +7,10 @@ import "./styles.css";
 
 export default function Sidebar(props: ISidebarProps) {
   return (
-    <div className="sidebar">
+    <nav className="sidebar">
       <SideHeader />
       <SideBody items={sideItems} />
       <SideFooter />
-    </div>
+    </nav>
   );
 }

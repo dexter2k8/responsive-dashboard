@@ -1,0 +1,24 @@
+.switch {
+  position: relative;
+  height: 1.5rem;
+  min-width: 3rem;
+  border-radius: 1.5rem;
+  background: var(--grey);
+  cursor: pointer;
+}
+
+.switch::before {
+  position: absolute;
+  content: "";
+  top: 0.125rem;
+  left: 0.125rem;
+  bottom: 0.125rem;
+  width: calc(1.5rem - 0.25rem);
+  background: var(--primary);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+#switch:checked + .switch::before {
+  left: calc(100% - (1.5rem - 0.25rem) - 0.125rem);
+}
