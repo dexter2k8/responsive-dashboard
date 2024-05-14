@@ -4,11 +4,12 @@ import { BxSearch } from "../../assets/icons/BxSearch";
 import Switch from "./components/Switch";
 import "./styles.css";
 import logo from "../../assets/logo.png";
+import { IHeaderProps } from "./types";
 
-export default function Header() {
+export default function Header({ onMenuClick }: IHeaderProps) {
   return (
     <header>
-      <BxMenu style={{ cursor: "pointer" }} />
+      <BxMenu onClick={onMenuClick} style={{ cursor: "pointer" }} />
       <form action="#">
         <input type="search" placeholder="Search..." />
         <button type="submit">

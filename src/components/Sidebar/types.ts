@@ -1,1 +1,3 @@
-export interface ISidebarProps {}
+export interface ISidebarProps {
+  collapsed: boolean;
+}

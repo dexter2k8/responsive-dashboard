@@ -5,9 +5,11 @@ import { sideItems } from "./components/sideItems";
 import SideFooter from "./components/SideFooter";
 import "./styles.css";
 
-export default function Sidebar(props: ISidebarProps) {
+export default function Sidebar({ collapsed }: ISidebarProps) {
+  const sidebarClass = `sidebar ${collapsed ? "collapsed" : ""}`;
+
   return (
-    <nav className="sidebar">
+    <nav className={sidebarClass}>
       <SideHeader />
       <SideBody items={sideItems} />
       <SideFooter />
