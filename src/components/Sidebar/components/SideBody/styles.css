@@ -12,6 +12,7 @@
 .side-body li.active {
   position: relative;
   background-color: var(--grey);
+  z-index: 1;
 }
 
 .side-body li.active::before,
@@ -40,6 +41,7 @@
   align-items: center;
   gap: 0.5rem;
   height: 100%;
+  width: 13rem;
   padding-inline: 0.5rem;
   border-radius: 3rem;
   background: var(--light);
@@ -49,6 +51,14 @@
   transition: all 0.3s ease;
 }
 
+.sidebar.collapsed .side-body li a {
+  width: 2.5rem;
+}
+
 .side-body li.active a {
   color: var(--success);
+}
+
+.side-body li a svg {
+  min-width: 1.6rem;
 }

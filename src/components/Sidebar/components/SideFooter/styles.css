@@ -1,11 +1,23 @@
 .side-footer {
   position: absolute;
   bottom: 1rem;
-  width: 100%;
+  width: 13rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 .side-footer a {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
+  padding-inline: 1.1rem;
   height: 2.5rem;
+}
+
+.sidebar.collapsed .side-footer {
+  width: 2.6rem;
+}
+
+.side-footer a svg {
+  min-width: 1.6rem;
 }
