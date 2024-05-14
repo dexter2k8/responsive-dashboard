@@ -1,5 +1,5 @@
-import { ISideBodyProps } from "./types";
 import "./styles.css";
+import { ISideBodyProps } from "./types";
 import { useState } from "react";
 
 export default function SideBody({ items }: ISideBodyProps) {

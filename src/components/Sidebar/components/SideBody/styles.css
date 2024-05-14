@@ -1,4 +1,5 @@
 .side-body {
+  padding-left: 0.375rem;
   margin-top: 3rem;
 }
 
@@ -37,7 +38,9 @@
 .side-body li a {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
   height: 100%;
+  padding-inline: 0.5rem;
   border-radius: 3rem;
   background: var(--light);
   color: var(--dark);
