@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .breadcrumb a {
+  color: var(--dark-grey);
+}
+
+.header .breadcrumb a:last-child {
+  color: var(--primary);
+  pointer-events: none;
+}
+
+.header .report {
+  height: 2.5rem;
+  padding: 0 1rem;
+  border-radius: 2rem;
+  background: var(--primary);
+  color: var(--light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.header .report svg {
+  font-size: 1.7rem;
+}
