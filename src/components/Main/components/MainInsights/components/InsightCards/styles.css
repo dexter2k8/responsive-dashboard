@@ -1,0 +1,49 @@
+.insight-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background: var(--light);
+  cursor: pointer;
+}
+
+.insight-card figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.card-primary {
+  background: var(--light-primary);
+  color: var(--primary);
+}
+
+.card-warning {
+  background: var(--light-warning);
+  color: var(--warning);
+}
+
+.card-success {
+  background: var(--light-success);
+  color: var(--success);
+}
+
+.card-danger {
+  background: var(--light-danger);
+  color: var(--danger);
+}
+
+.insight-card span h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.insight-card span p {
+  color: var(--dark);
+}
