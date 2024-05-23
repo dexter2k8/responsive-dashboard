@@ -1,0 +1,8 @@
+.reminders {
+  flex-grow: 1;
+  flex-basis: 18rem;
+}
+
+.task-list {
+  width: 100%;
+}

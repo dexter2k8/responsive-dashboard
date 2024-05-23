@@ -1,0 +1,17 @@
+.order-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.order-header h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-right: auto;
+}
+
+.order-header svg {
+  font-size: 1.7rem;
+  cursor: pointer;
+}

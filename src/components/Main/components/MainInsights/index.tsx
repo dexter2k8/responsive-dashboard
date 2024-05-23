@@ -1,12 +1,12 @@
-import InsightCards from "./components/InsightCards";
-import { insights } from "./insights";
+import InsightCard from "./components/InsightCard";
+import { insights } from "./components/InsightCard/types";
 import "./styles.css";
 
 export default function MainInsights() {
   return (
     <ul className="insights">
       {insights.map((insight, index) => (
-        <InsightCards key={index} {...insight} />
+        <InsightCard key={index} {...insight} />
       ))}
     </ul>
   );

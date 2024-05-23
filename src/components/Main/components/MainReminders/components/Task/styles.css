@@ -1,0 +1,33 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem 0.75rem;
+  width: 100%;
+  background: var(--grey);
+}
+
+.task-item:last-child {
+  margin-bottom: 0;
+}
+
+.task-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.task-item svg {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.complete-true {
+  border-left: 0.5rem solid var(--success);
+}
+
+.complete-false {
+  border-left: 0.5rem solid var(--danger);
+}

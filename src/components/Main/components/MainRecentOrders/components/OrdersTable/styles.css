@@ -1,0 +1,58 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  text-align: left;
+  font-size: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--grey);
+}
+
+.table tr {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.table tr:hover {
+  background-color: var(--grey);
+}
+
+.table td {
+  padding-block: 1rem;
+}
+
+.table td:first-child {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.table td img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.table td .status {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--light);
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.table td .status.completed {
+  background: var(--success);
+}
+
+.table td .status.processing {
+  background: var(--primary);
+}
+
+.table td .status.pending {
+  background: var(--warning);
+}
