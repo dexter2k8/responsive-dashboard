@@ -19,3 +19,9 @@ main .divider > div {
   padding: 1.5rem;
   overflow-x: auto;
 }
+
+@media screen and (max-width: 616px) {
+  main {
+    margin-left: 3.75rem;
+  }
+}

@@ -11,5 +11,16 @@
 }
 
 .content-false {
+  position: relative;
   width: calc(100% - 14rem);
+}
+
+@media screen and (max-width: 616px) {
+  .content-true {
+    width: inherit;
+  }
+
+  .content-false {
+    width: inherit;
+  }
 }

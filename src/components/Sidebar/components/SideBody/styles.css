@@ -62,3 +62,10 @@
 .side-body li a svg {
   min-width: 1.6rem;
 }
+
+@media screen and (max-width: 616px) {
+  .side-body {
+    padding-left: 0.375rem;
+    margin-top: 7rem;
+  }
+}
