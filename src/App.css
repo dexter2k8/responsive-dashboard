@@ -3,8 +3,13 @@
   height: 100vh;
   width: 100vw;
   background-color: var(--light);
+  overflow-x: hidden;
 }
 
-.content {
-  width: 100%;
+.content-true {
+  width: calc(100% - 3.75rem);
+}
+
+.content-false {
+  width: calc(100% - 14rem);
 }

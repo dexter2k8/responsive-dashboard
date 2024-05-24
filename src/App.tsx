@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="app">
       <Sidebar collapsed={collapsed} />
-      <div className="content">
+      <div className={`content-${collapsed}`}>
         <Header onMenuClick={() => setCollapsed(!collapsed)} onSwitchClick={toggleDarkMode} />
         <Main />
       </div>
