@@ -1,6 +1,7 @@
 main {
-  background-color: bisque;
   padding: 2rem 1.5rem;
+  border-top-left-radius: 1.25rem;
+  background-color: var(--grey);
 }
 
 main .divider {
