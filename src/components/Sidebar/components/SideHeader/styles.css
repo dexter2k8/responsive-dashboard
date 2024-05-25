@@ -1,3 +1,7 @@
+.side-header {
+  overflow-x: hidden;
+}
+
 .side-header a {
   display: flex;
   align-items: center;

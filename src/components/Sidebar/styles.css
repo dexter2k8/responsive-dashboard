@@ -1,4 +1,6 @@
 .sidebar {
+  position: sticky;
+  top: 0;
   background: var(--light);
   min-width: 14rem;
   max-width: 14rem;
@@ -18,5 +20,6 @@
 @media screen and (max-width: 616px) {
   .sidebar {
     position: absolute;
+    z-index: 100;
   }
 }

@@ -8,7 +8,7 @@ import { IHeaderProps } from "./types";
 
 export default function Header({ onMenuClick, onSwitchClick }: IHeaderProps) {
   return (
-    <header>
+    <header className="reverse">
       <BxMenu onClick={onMenuClick} style={{ cursor: "pointer" }} />
       <form action="#">
         <input type="search" placeholder="Search..." />

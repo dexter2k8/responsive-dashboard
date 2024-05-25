@@ -1,5 +1,6 @@
 header {
   position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   gap: 1.5rem;
@@ -80,6 +81,10 @@ header .profile img {
     height: auto;
     margin-left: 3.75rem;
     padding: 0.5rem;
+  }
+
+  header.reverse {
+    flex-direction: row-reverse;
   }
 
   header form input {
