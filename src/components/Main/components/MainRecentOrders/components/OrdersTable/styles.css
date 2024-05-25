@@ -1,6 +1,7 @@
 .table {
   width: 100%;
   border-collapse: collapse;
+  min-width: 36rem;
 }
 
 .table th {
@@ -21,6 +22,7 @@
 
 .table td {
   padding-block: 1rem;
+  white-space: nowrap;
 }
 
 .table td:first-child {
