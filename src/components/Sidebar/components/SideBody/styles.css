@@ -63,6 +63,12 @@
   min-width: 1.6rem;
 }
 
+@media screen and (min-width: 616px) and (max-width: 860px) {
+  .side-body {
+    margin-top: 0.5rem;
+  }
+}
+
 @media screen and (max-width: 616px) {
   .side-body {
     padding-left: 0.375rem;

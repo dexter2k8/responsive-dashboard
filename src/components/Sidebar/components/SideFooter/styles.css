@@ -21,3 +21,9 @@
 .side-footer a svg {
   min-width: 1.6rem;
 }
+
+@media screen and (min-width: 616px) and (max-width: 860px) {
+  .side-footer a {
+    height: 1.5rem;
+  }
+}
