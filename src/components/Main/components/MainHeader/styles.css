@@ -6,6 +6,10 @@
   flex-wrap: wrap;
 }
 
+.header .breadcrumb {
+  color: var(--dark);
+}
+
 .header .breadcrumb a {
   color: var(--dark-grey);
 }
